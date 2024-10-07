@@ -1,0 +1,15 @@
+# For details & more options, see documentation/AppManifests.md in firmware repo
+
+App(
+    appid="advanced_mouse_jiggler",
+    name="Advanced Mouse Jiggler",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="advanced_mouse_jiggler",
+    stack_size=2 * 1024,
+    fap_category="Mouse",
+    fap_version="0.1",
+    fap_description="Use Flipper as a mouse jiggler over USB",
+    fap_author="FallenFoil",
+    fap_icon="template.png",  # 10x10 1-bit PNG
+    fap_icon_assets="assets",
+)
